@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Eduardo Ferrer Cruz — GeoCV</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ── SIDEBAR ── -->
+  <aside id="sidebar">
+
+    <!-- Header / profile -->
+    <div id="sidebar-header">
+      <div class="profile-row">
+        <img class="avatar" src="data/lefc.jpg" alt="Luis Eduardo Ferrer Cruz" id="avatar-img" />
+        <div class="profile-info">
+          <h1>Luis Eduardo Ferrer Cruz</h1>
+          <a class="profile-subtitle" href="https://www.linkedin.com/in/luchofgis" target="_blank" rel="noopener">Geógrafo · GIS Manager · Business Analytics &amp; IA</a>
+        </div>
+      </div>
+
+      <div class="contact-row">
+        <a class="contact-chip" href="mailto:luis.ferrer.c@uni.pe">
+          ✉ luis.ferrer.c@uni.pe
+        </a>
+        <!-- <span class="contact-chip">📞 (+51) 987813372</span> -->
+        <a class="contact-chip" href="https://cgp.org.pe/web/" target="_blank" rel="noopener">🏛 Colegio Geógrafos Perú N° 666</a>
+        <span class="contact-chip">🌐 QGIS Perú · QGIS España</span>
+      </div>
+    </div>
+
+    <!-- Filter tabs -->
+    <div id="filter-tabs">
+      <button class="tab-btn active" data-filter="all">
+        <span class="tab-dot dot-all"></span>Todo
+      </button>
+      <button class="tab-btn" data-filter="trabajo">
+        <span class="tab-dot dot-trabajo"></span>Trabajo
+      </button>
+      <button class="tab-btn" data-filter="evento">
+        <span class="tab-dot dot-evento"></span>Eventos
+      </button>
+      <button class="tab-btn" data-filter="educacion">
+        <span class="tab-dot dot-educacion"></span>Formación
+      </button>
+      <button class="tab-btn" data-filter="voluntariado">
+        <span class="tab-dot dot-voluntariado"></span>Voluntariado
+      </button>
+    </div>
+
+    <!-- Scrollable cards -->
+    <div id="sidebar-content"></div>
+
+    <!-- Stats bar -->
+    <div id="stats-bar">
+      <div class="stat-item">
+        <div class="stat-num" id="stat-years">—</div>
+        <div class="stat-label">Años exp.</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" id="stat-jobs">—</div>
+        <div class="stat-label">Empleos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" id="stat-events">—</div>
+        <div class="stat-label">Eventos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" id="stat-countries">—</div>
+        <div class="stat-label">Países</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- Sidebar toggle button -->
+  <button id="toggle-btn" title="Mostrar/ocultar panel">‹</button>
+
+  <!-- ── MAP ── -->
+  <div id="map-container">
+    <div id="map"></div>
+
+    <!-- Legend -->
+    <div id="legend">
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#e05c5c;"></div>
+        <span>Residencia (Lima, Perú)</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#388bfd;"></div>
+        <span>Experiencia laboral</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#d29922;"></div>
+        <span>Evento / Conferencia</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#2ea043;"></div>
+        <span>Formación académica</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:#5e07b5;"></div>
+        <span>Voluntariado</span>
+      </div>
+      <div class="legend-line">
+        <svg width="44" height="6">
+          <line x1="0"  y1="3" x2="20" y2="3" stroke="#45f542" stroke-width="1.5" stroke-dasharray="5 4"/>
+          <line x1="24" y1="3" x2="44" y2="3" stroke="#719470" stroke-width="1.5" stroke-dasharray="5 4"/>
+        </svg>
+        <span>Conexión internacional · local</span>
+      </div>
+    </div>
+
+  </div><!-- /map-container -->
+
+</div><!-- /app -->
+
+<!-- ── Lightbox foto ── -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Foto de perfil">
+  <div id="lightbox-inner">
+    <button id="lightbox-close" title="Cerrar (Esc)">✕</button>
+    <img src="data/lefc.jpg" alt="Luis Eduardo Ferrer Cruz" />
+  </div>
+</div>
+
+<!-- Data + App -->
+<script src="data/locations.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

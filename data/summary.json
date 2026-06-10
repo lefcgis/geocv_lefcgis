@@ -1,0 +1,23 @@
+{
+  "name": "Luis Eduardo Ferrer Cruz",
+  "total_records": 24,
+  "by_type": {
+    "trabajo": 10,
+    "evento": 9,
+    "educacion": 2,
+    "voluntariado": 3
+  },
+  "countries_visited": 9,
+  "total_km_traveled": 68272.4,
+  "abroad_cities": [
+    "Belém do Pará, Brasil",
+    "'s-Hertogenbosch, Holanda",
+    "Santiago de Chile, Chile",
+    "Gerona, España",
+    "Buenos Aires, Argentina",
+    "Hamilton, Ontario, Canadá",
+    "Quito, Ecuador",
+    "Varsovia, Polonia",
+    "España"
+  ]
+}

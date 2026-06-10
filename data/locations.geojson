@@ -1,0 +1,456 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0428,
+          -12.0464
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "type": "home",
+        "city": "Lima, Perú",
+        "org": "Residencia",
+        "role": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9967,
+          -12.1211
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "type": "trabajo",
+        "org": "Walsh Perú By SGS",
+        "role": "Gerente de SIG e Innovación",
+        "period": "Jul 2022 – Actualidad",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0146,
+          -12.0979
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "type": "trabajo",
+        "org": "MINCETUR",
+        "role": "Especialista en Geocodificación",
+        "period": "Mar 2022 – Jul 2022",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0498,
+          -12.0853
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "type": "trabajo",
+        "org": "CDC PERÚ – Ministerio de Salud",
+        "role": "Analista Geoespacial",
+        "period": "Jun 2021 – Jul 2021",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0271,
+          -12.0981
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "type": "trabajo",
+        "org": "COES Educación – Ministerio de Educación",
+        "role": "Especialista SIG",
+        "period": "Oct 2020 – May 2021",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0018,
+          -12.0866
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "type": "trabajo",
+        "org": "Ministerio de Cultura",
+        "role": "Consultor SIG",
+        "period": "Feb 2020 – Mar 2020",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01,
+          -12.1472
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "type": "trabajo",
+        "org": "Línea GIS S.A.C.",
+        "role": "Especialista GIS",
+        "period": "Ene 2019 – Ago 2020",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0567,
+          -12.0237
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "type": "trabajo",
+        "org": "Universidad Peruana Cayetano Heredia / UNESCO",
+        "role": "Consultor",
+        "period": "Oct 2019 – Ene 2020",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0416,
+          -12.06
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "type": "trabajo",
+        "org": "What3Words",
+        "role": "Consultor",
+        "period": "Mar 2017 – Jun 2017",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0007,
+          -12.0851
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "type": "trabajo",
+        "org": "Ministerio de Educación",
+        "role": "Analista SIG",
+        "period": "2013 – 2020",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1472,
+          -12.0634
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "type": "trabajo",
+        "org": "Municipalidad Provincial del Callao",
+        "role": "Cadista GIS",
+        "period": "Nov 2011 – Ene 2013",
+        "city": "Callao, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4565,
+          -1.4216
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "type": "evento",
+        "org": "FOSS4G Belém 2024 – QGIS LATAM",
+        "role": "Ponente",
+        "period": "Dic 2024",
+        "city": "Belém do Pará, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2937,
+          51.6963
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "type": "evento",
+        "org": "QGIS User Conference 2023",
+        "role": "Ponente",
+        "period": "Abr 2023",
+        "city": "'s-Hertogenbosch, Holanda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6406,
+          -33.4412
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "type": "evento",
+        "org": "LatinR",
+        "role": "Ponente",
+        "period": "Sep 2019",
+        "city": "Santiago de Chile, Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8272,
+          41.9858
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "type": "evento",
+        "org": "13as Jornadas SIG Libre – Universitat de Girona",
+        "role": "Ponente",
+        "period": "May 2019",
+        "city": "Gerona, España"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3883,
+          -34.6051
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "type": "evento",
+        "org": "Geoinquiet@s Argentina",
+        "role": "Ponente",
+        "period": "Abr 2019",
+        "city": "Buenos Aires, Argentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8272,
+          41.9858
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "type": "evento",
+        "org": "12as Jornadas SIG Libre – Universitat de Girona",
+        "role": "Ponente",
+        "period": "Jun 2018",
+        "city": "Gerona, España"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8561,
+          43.2608
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "type": "evento",
+        "org": "Offord Centre for Child Studies",
+        "role": "Capacitación EDI",
+        "period": "Feb 2015",
+        "city": "Hamilton, Ontario, Canadá"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4922,
+          -0.2099
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "type": "evento",
+        "org": "PUCE",
+        "role": "Estudiante",
+        "period": "Ago 2010",
+        "city": "Quito, Ecuador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0169,
+          52.2394
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "type": "evento",
+        "org": "Uniwersytet Warszawski",
+        "role": "Workshop",
+        "period": "May 2019",
+        "city": "Varsovia, Polonia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0494,
+          -12.0191
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "type": "educacion",
+        "org": "Universidad Nacional de Ingeniería (UNI)",
+        "role": "Maestría en Business Analytics e IA Aplicada",
+        "period": "2025 – En curso",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0851,
+          -12.0567
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "type": "educacion",
+        "org": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+        "role": "Geógrafo",
+        "period": "2013",
+        "city": "Lima, Perú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.055,
+          -12.058
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "type": "voluntariado",
+        "org": "Asociación QGIS Perú",
+        "role": "Vicepresidente (Directorio)",
+        "period": "Oct 2020 – Actualidad",
+        "city": "Lima, Perú",
+        "url": "https://qgis.pe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "type": "voluntariado",
+        "org": "Asociación QGIS España",
+        "role": "Vocal (Directorio)",
+        "period": "Jun 2019 – Actualidad",
+        "city": "España"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0283,
+          -12.0516
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "type": "voluntariado",
+        "org": "Beneficencia de Lima",
+        "role": "Voluntario",
+        "period": "Por confirmar",
+        "city": "Lima, Perú",
+        "desc": "Restauración de monumentos históricos."
+      }
+    }
+  ]
+}
