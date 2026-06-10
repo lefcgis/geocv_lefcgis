@@ -2,7 +2,7 @@
 
 Currículum vitae interactivo basado en un mapa web. Cada experiencia laboral, evento, formación académica y actividad de voluntariado queda georreferenciada y explorable a través de un mapa Leaflet con líneas de conexión animadas desde Lima, Perú.
 
-🔗 **Demo:** _próximamente en GitHub Pages_
+🔗 **Demo:** [GeoCV Lucho](https://lefcgis.github.io/geocv_lefcgis/)
 
 ---
 
