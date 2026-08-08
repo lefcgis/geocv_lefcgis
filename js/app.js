@@ -354,12 +354,52 @@ toggleBtn.addEventListener('click', () => {
 });
 
 // ── Stats ─────────────────────────────────────────────────
+
+// Años de experiencia: se derivan del registro laboral más antiguo de
+// cvData (no de un año fijo), contando aniversarios cumplidos.
+const MONTHS_ES = {
+  ene: 0, feb: 1, mar: 2, abr: 3, may:  4, jun:  5,
+  jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11
+};
+
+// "Nov 2011 – Ene 2013" → Date(2011, 10) ; "2013 – 2020" → Date(2013, 0)
+function parsePeriodStart(period) {
+  const start = String(period).split(/[–—-]/)[0].trim();
+  const m = start.match(/^(?:([A-Za-zÁ-úñÑ]+)\s+)?(\d{4})$/);
+  if (!m) return null;
+  const month = m[1] ? MONTHS_ES[m[1].slice(0, 3).toLowerCase()] : 0;
+  return new Date(+m[2], month === undefined ? 0 : month, 1);
+}
+
+function yearsOfExperience() {
+  const starts = cvData.experience.map(i => parsePeriodStart(i.period)).filter(Boolean);
+  if (!starts.length) return 0;
+
+  const first = new Date(Math.min(...starts));
+  const now   = new Date();
+
+  let years = now.getFullYear() - first.getFullYear();
+  if (now.getMonth() < first.getMonth()) years--;   // aún no llega el aniversario
+  return years;
+}
+
+// Países: último segmento de `city` ("Ananindeua, Pará, Brasil" → "Brasil"),
+// mismo criterio que usa generate_data.py para countries_visited.
+function countriesVisited() {
+  const allItems = [
+    ...cvData.experience,
+    ...cvData.events,
+    ...cvData.education,
+    ...cvData.voluntariado
+  ];
+  return new Set(allItems.map(i => i.city.split(',').pop().trim())).size;
+}
+
 function updateStats() {
-  const years = new Date().getFullYear() - 2009;
-  document.getElementById('stat-years').textContent = years;
+  document.getElementById('stat-years').textContent = yearsOfExperience();
   document.getElementById('stat-jobs').textContent  = cvData.experience.length;
   document.getElementById('stat-events').textContent = cvData.events.length + cvData.education.length;
-  document.getElementById('stat-countries').textContent = 9;
+  document.getElementById('stat-countries').textContent = countriesVisited();
 }
 
 // ── Init ──────────────────────────────────────────────────
