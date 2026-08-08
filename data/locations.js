@@ -96,6 +96,22 @@ var cvData = {
 
   events: [
     {
+      id: 111, type: "evento",
+      org: "Python Norte 2026", role: "Ponente",
+      period: "Jul 2026", city: "Ananindeua, Pará, Brasil",
+      lat: -1.3882, lon: -48.4145,
+      url: "https://pythonnorte.org/",
+      desc: "Sede: Universidade da Amazônia (UNAMA), Campus Ananindeua. Palestras: «Espaço Geográfico, Inteligência Artificial e Amazônia: perspectivas desde a Geografia latino-americana» y «Construindo um servidor MCP com Python para análise geoespacial da Amazônia»."
+    },
+    {
+      id: 110, type: "evento",
+      org: "Python Norte 2025", role: "Ponente",
+      period: "Jul 2025", city: "Belém do Pará, Brasil",
+      lat: -1.4379, lon: -48.4615,
+      url: "https://2025.pythonnorte.org/",
+      desc: "Sede: Instituto Federal do Pará (IFPA), Campus Belém. Palestra: «Ranking Spotify 2024»."
+    },
+    {
       id: 101, type: "evento",
       org: "FOSS4G Belém 2024– QGIS LATAM", role: "Ponente",
       period: "Dic 2024", city: "Belém do Pará, Brasil",

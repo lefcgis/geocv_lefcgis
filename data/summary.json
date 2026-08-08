@@ -1,15 +1,17 @@
 {
   "name": "Luis Eduardo Ferrer Cruz",
-  "total_records": 24,
+  "total_records": 26,
   "by_type": {
     "trabajo": 10,
-    "evento": 9,
+    "evento": 11,
     "educacion": 2,
     "voluntariado": 3
   },
   "countries_visited": 9,
-  "total_km_traveled": 68272.4,
+  "total_km_traveled": 75008.3,
   "abroad_cities": [
+    "Ananindeua, Pará, Brasil",
+    "Belém do Pará, Brasil",
     "Belém do Pará, Brasil",
     "'s-Hertogenbosch, Holanda",
     "Santiago de Chile, Chile",

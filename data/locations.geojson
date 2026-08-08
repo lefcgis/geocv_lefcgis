@@ -203,6 +203,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.4145,
+          -1.3882
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "type": "evento",
+        "org": "Python Norte 2026",
+        "role": "Ponente",
+        "period": "Jul 2026",
+        "city": "Ananindeua, Pará, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4615,
+          -1.4379
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "type": "evento",
+        "org": "Python Norte 2025",
+        "role": "Ponente",
+        "period": "Jul 2025",
+        "city": "Belém do Pará, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.4565,
           -1.4216
         ]

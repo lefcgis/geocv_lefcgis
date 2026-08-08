@@ -28,6 +28,8 @@ RECORDS = [
     {"id": 9,  "type": "trabajo",   "org": "Ministerio de Educación",            "role": "Analista SIG",                           "period": "2013 – 2020",           "city": "Lima, Perú",                      "lat": -12.0851, "lon": -77.0007},
     {"id": 10, "type": "trabajo",   "org": "Municipalidad Provincial del Callao","role": "Cadista GIS",                            "period": "Nov 2011 – Ene 2013",   "city": "Callao, Perú",                    "lat": -12.0634, "lon": -77.1472},
     # Eventos
+    {"id": 111,"type": "evento",    "org": "Python Norte 2026",                  "role": "Ponente",                                "period": "Jul 2026",              "city": "Ananindeua, Pará, Brasil",         "lat":  -1.3882, "lon": -48.4145},
+    {"id": 110,"type": "evento",    "org": "Python Norte 2025",                  "role": "Ponente",                                "period": "Jul 2025",              "city": "Belém do Pará, Brasil",            "lat":  -1.4379, "lon": -48.4615},
     {"id": 101,"type": "evento",    "org": "FOSS4G Belém 2024 – QGIS LATAM",     "role": "Ponente",                                "period": "Dic 2024",              "city": "Belém do Pará, Brasil",            "lat":  -1.4216, "lon": -48.4565},
     {"id": 102,"type": "evento",    "org": "QGIS User Conference 2023",           "role": "Ponente",                                "period": "Abr 2023",              "city": "'s-Hertogenbosch, Holanda",        "lat":  51.6963, "lon":   5.2937},
     {"id": 103,"type": "evento",    "org": "LatinR",                              "role": "Ponente",                                "period": "Sep 2019",              "city": "Santiago de Chile, Chile",         "lat": -33.4412, "lon": -70.6406},
